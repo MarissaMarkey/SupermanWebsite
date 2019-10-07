@@ -174,7 +174,7 @@ body {
 	
 	.wide-col {
 		order: 1;
-		display: block;
+		display: block; 
 		height: 30%;
 		width: 100%;
 		background-color: #082e61;
@@ -182,7 +182,7 @@ body {
 	
 	.narrow-col {
 		order: 2;
-		display: flex;
+		display: flex; /*  When it gets to the media querry, everything inside the narrow column will become display flex. This is one of the coumns with the two boxes on the mobile version */
 		height: 25%;
 		width: 100%;
 	}
@@ -195,7 +195,7 @@ body {
 	}
 	
 	.box1 {
-		order: 1;
+		order: 1; /*  We used the order property so that when the screen gets to 800px, the order of the boxes inside the narrow columns will rearrange. Box1 is the image of the */
 		display: flex;
 		height: 100%;
 		width: 50%;
@@ -205,7 +205,7 @@ body {
 	}
 	
 	.box2 {
-		order: 2;
+		order: 2; /*  We used the order property so that when the screen gets to 800px, the order of the boxes inside the narrow columns will rearrange. Box1 is the keychain meaning, and instead of being under the image of the fist it will change to be to the right of it.*/
 		display: flex;
 		height: 100%;
 		width: 50%;
@@ -240,7 +240,7 @@ body {
 	}
 	
 	.thin {
-		display: none;
+		display: none; /* Makes the entire thin column not apear on the mobile version.*/
 	}
 	
 	.title {
