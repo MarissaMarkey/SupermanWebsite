@@ -195,7 +195,7 @@ body {
 	}
 	
 	.box1 {
-		order: 1; /*  We used the order property so that when the screen gets to 800px, the order of the boxes inside the narrow columns will rearrange. Box1 is the image of the */
+		order: 1; 
 		display: flex;
 		height: 100%;
 		width: 50%;
@@ -240,7 +240,7 @@ body {
 	}
 	
 	.thin {
-		display: none; /* Makes the entire thin column not apear on the mobile version.*/
+		display: none; /* Makes the entire thin (center) column not apear on the mobile version.*/
 	}
 	
 	.title {
